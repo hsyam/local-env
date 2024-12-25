@@ -1,0 +1,12 @@
+deployments filter=lfs diff=lfs merge=lfs -text
+docker-compose.yml filter=lfs diff=lfs merge=lfs -text
+elasticsearch-data filter=lfs diff=lfs merge=lfs -text
+keycloak filter=lfs diff=lfs merge=lfs -text
+keycloak.sql filter=lfs diff=lfs merge=lfs -text
+minio_data filter=lfs diff=lfs merge=lfs -text
+mongodb_data filter=lfs diff=lfs merge=lfs -text
+rabbitmq_data filter=lfs diff=lfs merge=lfs -text
+README.md filter=lfs diff=lfs merge=lfs -text
+mssql_data filter=lfs diff=lfs merge=lfs -text
+mysql_data filter=lfs diff=lfs merge=lfs -text
+redis_data filter=lfs diff=lfs merge=lfs -text
